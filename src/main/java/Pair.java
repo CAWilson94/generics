@@ -2,8 +2,6 @@
  * What is this class converted to after type erasure?
  * Type erasure - the process of (1) enforcing type constraints only at compile time
  *                               (2) discarding element type information at runtime
- * @param <K>
- * @param <V>
  */
 public class Pair {
 
@@ -32,3 +30,7 @@ public class Pair {
         this.value = value;
     }
 }
+
+/**
+ * Type erasure was added for backwards compatability with existing code ...
+ */
