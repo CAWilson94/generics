@@ -1,6 +1,7 @@
 /**
  * You created a bucket you can easily fill with water.
- * What if you wanted to fill with sand though??
+ * What if you wanted to fill with sand though?? Not possible, your bucket only accepts water.
+ * To make your class more flexible you can use generics ...
  */
 
 public class Bucket {
